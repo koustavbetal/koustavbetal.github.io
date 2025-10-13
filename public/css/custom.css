@@ -1,0 +1,8 @@
+
+.hextra-footer .social-media {
+    transition: ease-in-out 0.2s;
+}
+
+.hextra-footer .social-media :hover{
+    transform: translateY(-2px);
+}

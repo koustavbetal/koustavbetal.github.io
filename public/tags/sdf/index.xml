@@ -1,0 +1,35 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Links and Docs – SDF</title>
+    <link>http://localhost:1313/lnj/tags/sdf/</link>
+    <description>Recent content in SDF on Links and Docs</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 04 Oct 2025 17:04:33 +0530</lastBuildDate>
+    
+	  <atom:link href="http://localhost:1313/lnj/tags/sdf/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Become URDF Wizard</title>
+      <link>http://localhost:1313/lnj/guides/urdf-wizard/</link>
+      <pubDate>Sat, 04 Oct 2025 17:04:33 +0530</pubDate>
+      
+      <guid>http://localhost:1313/lnj/guides/urdf-wizard/</guid>
+      <description>
+        
+        
+        &lt;h1&gt;Key Notes&lt;/h1&gt;&lt;hr&gt;
+&lt;p&gt;&lt;strong&gt;AuRoClean™&lt;/strong&gt; is an Acronym for &amp;ldquo;&lt;strong&gt;Au&lt;/strong&gt;tonomous &lt;strong&gt;Ro&lt;/strong&gt;bot for &lt;strong&gt;Clean&lt;/strong&gt;ing&amp;rdquo;, Initially made in collaboration with BARC in ROS(1) framework, with minimal Autonomous Behaviour[^1].
+Current version of AuRoClean™ is developed on the &lt;strong&gt;ROS2&lt;/strong&gt; middleware with &lt;strong&gt;Nav2&lt;/strong&gt; and &lt;strong&gt;slam_toolbox&lt;/strong&gt; for complete autonomous operation of the robot.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

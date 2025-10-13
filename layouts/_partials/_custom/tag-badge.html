@@ -1,0 +1,15 @@
+{{- $tags := .context.Params.tags -}}
+{{- if $tags -}}
+  <div class="hx:flex hx:flex-wrap hx:gap-1 hx:mt-1">
+    {{- range $tags }}
+      <a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}"
+         class="hx:inline-flex hx:items-center hx:rounded-full hx:bg-primary-50 hx:px-1 hx:py-1 hx:text-xs hx:font-medium hx:text-primary-700 hover:hx:bg-primary-100 dark:hx:bg-primary-900 dark:hx:text-primary-100">
+        {{ partial "shortcodes/badge.html" (dict
+            "content" .
+            "icon" "tag"
+            "color" "purple"
+      ) }}
+      </a>
+    {{- end }}
+  </div>
+{{- end }}
