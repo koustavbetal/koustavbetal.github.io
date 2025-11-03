@@ -1,6 +1,5 @@
 ---
 date: '2025-10-04T11:13:37+05:30'
-draft: true
 title: ''
 params:
   width: full
