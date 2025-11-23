@@ -1,7 +1,7 @@
 ---
 State: Complete
 date: '2025-10-04T17:04:33+05:30'
-Title: How to Git
+title: How to Git
 icon: github
 tags:
   - git

@@ -36,7 +36,7 @@ menu:
       pageRef: /about
       weight: 4
       params:
-        icon: info-bar
+        icon: bot-sparkle
 
 params:
   navbar:
@@ -85,6 +85,11 @@ params:
 
   toc:
     displayTags: true
+
+  theme:
+    # light | dark | system
+    default: dark
+    displayToggle: false
 
   highlight:
     copy:

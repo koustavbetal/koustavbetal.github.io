@@ -54,7 +54,7 @@ function resizeMenu(switcher) {
 ;
 // Light / Dark theme toggle
 (function () {
-  const defaultTheme = 'system'
+  const defaultTheme = 'dark'
   const themes = ["light", "dark"];
 
   const themeToggleButtons = document.querySelectorAll(".hextra-theme-toggle");
@@ -556,8 +556,8 @@ document.addEventListener("DOMContentLoaded", function () {
   const faviconDarkExists = "true" === "true";
 
   if (faviconEl && faviconDarkExists) {
-    const lightFavicon = '/lnj/favicon.svg';
-    const darkFavicon = '/lnj/favicon-dark.svg';
+    const lightFavicon = '/favicon.svg';
+    const darkFavicon = '/favicon-dark.svg';
 
     const darkModeQuery = window.matchMedia("(prefers-color-scheme: dark)");
 

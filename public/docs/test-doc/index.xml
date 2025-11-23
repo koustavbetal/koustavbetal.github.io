@@ -1,0 +1,34 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Links and Docs – test</title>
+    <link>http://localhost:1313/docs/test-doc/</link>
+    <description>Recent content in test on Links and Docs</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	  <atom:link href="http://localhost:1313/docs/test-doc/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title></title>
+      <link>http://localhost:1313/docs/test-doc/testy/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/docs/test-doc/testy/</guid>
+      <description>
+        
+        
+        &lt;p&gt;jkaskd ufhieu f
+kh afuhfo
+lakf ifhelk&lt;/p&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>
