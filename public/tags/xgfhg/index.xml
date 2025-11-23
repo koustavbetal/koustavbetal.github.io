@@ -1,0 +1,62 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Links and Docs – Xgfhg</title>
+    <link>http://localhost:1313/tags/xgfhg/</link>
+    <description>Recent content in Xgfhg on Links and Docs</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	  <atom:link href="http://localhost:1313/tags/xgfhg/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title></title>
+      <link>http://localhost:1313/docs/amr-docs/robot-state-publisher/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/docs/amr-docs/robot-state-publisher/</guid>
+      <description>
+        
+        
+        &lt;p&gt;jkaskd ufhieu f
+kh afuhfo
+lakf ifhelk&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://localhost:1313/docs/amr-docs/ros2_control/hgvhodcvdsuhfv/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/docs/amr-docs/ros2_control/hgvhodcvdsuhfv/</guid>
+      <description>
+        
+        
+        &lt;p&gt;hbigiyijbk&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>AMR-Docs</title>
+      <link>http://localhost:1313/docs/amr-docs/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/docs/amr-docs/</guid>
+      <description>
+        
+        
+        &lt;p&gt;welcome to amr-doc&lt;/p&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

@@ -2,54 +2,78 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/lnj/guides/</loc>
+    <loc>http://localhost:1313/guides/</loc>
     <lastmod>2025-10-04T17:04:33+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/lnj/guides/urdf-wizard/</loc>
+    <loc>http://localhost:1313/guides/urdf-wizard/</loc>
     <lastmod>2025-10-04T17:04:33+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/lnj/tags/git/</loc>
+    <loc>http://localhost:1313/tags/git/</loc>
     <lastmod>2025-10-04T17:04:33+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/lnj/tags/github/</loc>
+    <loc>http://localhost:1313/tags/github/</loc>
     <lastmod>2025-10-04T17:04:33+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/lnj/guides/how-to-git/</loc>
+    <loc>http://localhost:1313/guides/how-to-git/</loc>
     <lastmod>2025-10-04T17:04:33+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/lnj/tags/release/</loc>
+    <loc>http://localhost:1313/tags/release/</loc>
     <lastmod>2025-10-04T17:04:33+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/lnj/guides/ros2-101/</loc>
+    <loc>http://localhost:1313/guides/ros2-101/</loc>
     <lastmod>2025-10-04T17:04:33+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/lnj/tags/sdf/</loc>
+    <loc>http://localhost:1313/tags/sdf/</loc>
     <lastmod>2025-10-04T17:04:33+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/lnj/tags/</loc>
+    <loc>http://localhost:1313/tags/</loc>
     <lastmod>2025-10-04T17:04:33+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/lnj/tags/urdf/</loc>
+    <loc>http://localhost:1313/tags/urdf/</loc>
     <lastmod>2025-10-04T17:04:33+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/lnj/docs/</loc>
+    <loc>http://localhost:1313/docs/</loc>
     <lastmod>2025-10-04T17:02:53+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/lnj/</loc>
+    <loc>http://localhost:1313/</loc>
     <lastmod>2025-10-04T11:13:37+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/lnj/about/</loc>
+    <loc>http://localhost:1313/about/</loc>
     <lastmod>2025-10-04T11:13:37+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/lnj/members/author/</loc>
+    <loc>http://localhost:1313/members/author/</loc>
     <lastmod>2025-10-04T11:13:37+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/lnj/members/koustav/</loc>
+    <loc>http://localhost:1313/members/koustav/</loc>
     <lastmod>2025-10-04T11:13:37+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/lnj/members/</loc>
+    <loc>http://localhost:1313/members/</loc>
     <lastmod>2025-10-04T11:13:37+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/lnj/categories/</loc>
+    <loc>http://localhost:1313/docs/amr-docs/robot-state-publisher/</loc>
+  </url><url>
+    <loc>http://localhost:1313/docs/amr-docs/ros2_control/hgvhodcvdsuhfv/</loc>
+  </url><url>
+    <loc>http://localhost:1313/docs/test-doc/testy/</loc>
+  </url><url>
+    <loc>http://localhost:1313/docs/amr-docs/</loc>
+  </url><url>
+    <loc>http://localhost:1313/categories/</loc>
+  </url><url>
+    <loc>http://localhost:1313/docs/amr-docs/create-a-ros2-robot/</loc>
+  </url><url>
+    <loc>http://localhost:1313/tags/grduyfu/</loc>
+  </url><url>
+    <loc>http://localhost:1313/tags/gz/</loc>
+  </url><url>
+    <loc>http://localhost:1313/tags/nav2/</loc>
+  </url><url>
+    <loc>http://localhost:1313/tags/ros2/</loc>
+  </url><url>
+    <loc>http://localhost:1313/docs/amr-docs/ros2_control/</loc>
+  </url><url>
+    <loc>http://localhost:1313/tags/ros2_conttrol/</loc>
+  </url><url>
+    <loc>http://localhost:1313/docs/test-doc/</loc>
   </url>
 </urlset>
