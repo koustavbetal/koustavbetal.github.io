@@ -8,9 +8,7 @@ icon: sparkles
 image: "/images/koustav.png"
 date: '2025-10-04T17:04:33+05:30'
 author: koustav
-cascade:
-  params:
-    breadcrumbs: false
+
 authors: 
   - name: imfing
     link: https://github.com/imfing

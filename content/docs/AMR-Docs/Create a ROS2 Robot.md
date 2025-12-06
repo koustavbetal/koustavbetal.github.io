@@ -16,7 +16,7 @@ Last Edited: 8th November 2025 12:29 pm
 ---
 
 In this series, we documented everything to create an advance near industrial grade Autonomous Mobile Robot or AMR which uses State-of-the-art mathematical theories into practices along with some AI fundamentals as well.
-## Prerequisites
+### Prerequisites
 #### [Robot Operating System (ROS2)](https://docs.ros.org/en/jazzy/)
 **The Robot Operating System (ROS) is a set of software libraries and tools for building robot applications.** From drivers and state-of-the-art algorithms to powerful developer tools, ROS has the open source tools you need for your next robotics project.
 #### [Gazebo](https://gazebosim.org/docs/harmonic/getstarted/)
@@ -28,8 +28,8 @@ The ros2_control is a framework for (real-time) control of robots using ROS 2. I
 #### [Nav2](https://docs.nav2.org/)
 Nav2 is the professionally-supported successor of the ROS Navigation Stack deploying the same kinds of technology powering Autonomous Vehicles brought down, optimized, and reworked for mobile and surface robotics.
 
-# Key Notes 
------ 
+### Key Notes 
+
 #### Robot State Publisher:
 
 

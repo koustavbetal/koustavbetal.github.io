@@ -48,13 +48,13 @@ toc: false
     title="ROS(2) 101"
     subtitle="The Easiest way to control a Robot."
     style="background: radial-gradient(ellipse at 50% 80%,rgba(142,53,74,0.15),hsla(0,0%,100%,0));"
-    link="/docs/welcome/integrations" >}}
+    link="/guides/ros2-101/" >}}
   {{< hextra/feature-card
     icon="sparkles"
     title="URDF Wizard"
     subtitle="Become a URDF wizard and learn the basic to advance methods of URDF"
     style="background: radial-gradient(ellipse at 50% 80%,rgba(221,210,59,0.15),hsla(0,0%,100%,0));"
-    link="/docs/configuration/file/#output-configuration" >}}
+    link="/guides/urdf-wizard/" >}}
 {{< /hextra/feature-grid >}}
 
 <div class="hx:mt-16 hx:mb-4">
@@ -66,9 +66,16 @@ toc: false
 <div class="hx:mt-4"></div>
 {{< hextra/feature-grid cols=3 >}}
   {{< hextra/feature-card
+    icon="ros-logo"
+    title="AMR"
+    subtitle="The Easiest way to control a Robot."
+    style="background: radial-gradient(ellipse at 50% 80%,rgba(221,210,59,0.15),hsla(0,0%,100%,0));"
+    link="/docs/amr-docs/" >}}
+  {{< hextra/feature-card
     icon="bot-sparkle"
     title="ROS-Manager"
     subtitle="An all-in-one ros and ros-pkgs installer & uninstaller tool"
+    style="background: radial-gradient(ellipse at 50% 80%,rgba(142,53,74,0.15),hsla(0,0%,100%,0));"
     link="/" >}}
   {{< hextra/feature-card
     icon="collection"

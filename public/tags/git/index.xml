@@ -16,6 +16,20 @@
     
     
     <item>
+      <title>AMR-Docs</title>
+      <link>http://localhost:1313/docs/amr-docs/</link>
+      <pubDate>Sat, 04 Oct 2025 17:04:33 +0530</pubDate>
+      
+      <guid>http://localhost:1313/docs/amr-docs/</guid>
+      <description>
+        
+        
+        &lt;p&gt;welcome to amr-doc&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
       <title>How to Git</title>
       <link>http://localhost:1313/guides/how-to-git/</link>
       <pubDate>Sat, 04 Oct 2025 17:04:33 +0530</pubDate>
@@ -368,20 +382,6 @@ No flag is required, as there is only a single repository mapped to the remote.&
   &lt;p&gt;&lt;em&gt;Merge a remote branch into your current branch to bring it up to date.&lt;/em&gt;&lt;/p&gt;
 
 &lt;/blockquote&gt;
-
-      </description>
-    </item>
-    
-    <item>
-      <title>AMR-Docs</title>
-      <link>http://localhost:1313/docs/amr-docs/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/docs/amr-docs/</guid>
-      <description>
-        
-        
-        &lt;p&gt;welcome to amr-doc&lt;/p&gt;
 
       </description>
     </item>

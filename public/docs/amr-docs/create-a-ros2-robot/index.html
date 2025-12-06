@@ -235,7 +235,7 @@ Prerequisites Robot Operating System (ROS2) The Robot Operating System (ROS) is 
 <nav class="hextra-toc hx:order-last hx:hidden hx:w-64 hx:shrink-0 hx:xl:block hx:print:hidden hx:px-4" aria-label="table of contents">
     <div class="hextra-scrollbar hx:sticky hx:top-16 hx:overflow-y-auto hx:pr-4 hx:pt-6 hx:text-sm [hyphens:auto] hx:max-h-[calc(100vh-var(--navbar-height)-env(safe-area-inset-bottom))] hx:ltr:-mr-4 hx:rtl:-ml-4"><p class="hx:mb-4 hx:font-semibold hx:tracking-tight">On this page</p><ul>
       <li class="hx:my-2 hx:scroll-my-6 hx:scroll-py-6">
-        <a class="hx:font-medium hx:inline-block hx:text-gray-500 hx:hover:text-gray-900 hx:dark:text-gray-400 hx:dark:hover:text-gray-300 hx:contrast-more:text-gray-900 hx:contrast-more:underline hx:contrast-more:dark:text-gray-50 hx:w-full hx:break-words" href="#prerequisites">Prerequisites
+        <a class="hx:ltr:pl-4 hx:rtl:pr-4 hx:inline-block hx:text-gray-500 hx:hover:text-gray-900 hx:dark:text-gray-400 hx:dark:hover:text-gray-300 hx:contrast-more:text-gray-900 hx:contrast-more:underline hx:contrast-more:dark:text-gray-50 hx:w-full hx:break-words" href="#prerequisites">Prerequisites
         </a>
       </li>
       <li class="hx:my-2 hx:scroll-my-6 hx:scroll-py-6">
@@ -253,7 +253,11 @@ Prerequisites Robot Operating System (ROS2) The Robot Operating System (ROS) is 
       <li class="hx:my-2 hx:scroll-my-6 hx:scroll-py-6">
         <a class="hx:ltr:pl-8 hx:rtl:pr-8 hx:inline-block hx:text-gray-500 hx:hover:text-gray-900 hx:dark:text-gray-400 hx:dark:hover:text-gray-300 hx:contrast-more:text-gray-900 hx:contrast-more:underline hx:contrast-more:dark:text-gray-50 hx:w-full hx:break-words" href="#nav2">Nav2
         </a>
-      </li></ul><ul>
+      </li>
+      <li class="hx:my-2 hx:scroll-my-6 hx:scroll-py-6">
+        <a class="hx:ltr:pl-4 hx:rtl:pr-4 hx:inline-block hx:text-gray-500 hx:hover:text-gray-900 hx:dark:text-gray-400 hx:dark:hover:text-gray-300 hx:contrast-more:text-gray-900 hx:contrast-more:underline hx:contrast-more:dark:text-gray-50 hx:w-full hx:break-words" href="#key-notes">Key Notes
+        </a>
+      </li>
       <li class="hx:my-2 hx:scroll-my-6 hx:scroll-py-6">
         <a class="hx:ltr:pl-8 hx:rtl:pr-8 hx:inline-block hx:text-gray-500 hx:hover:text-gray-900 hx:dark:text-gray-400 hx:dark:hover:text-gray-300 hx:contrast-more:text-gray-900 hx:contrast-more:underline hx:contrast-more:dark:text-gray-50 hx:w-full hx:break-words" href="#robot-state-publisher">Robot State Publisher:
         </a>
@@ -313,8 +317,8 @@ Prerequisites Robot Operating System (ROS2) The Robot Operating System (ROS) is 
         <div class="content">
           <h1>create a ros2 robot w/ ros2_control, nav2</h1>
           <p>In this series, we documented everything to create an advance near industrial grade Autonomous Mobile Robot or AMR which uses State-of-the-art mathematical theories into practices along with some AI fundamentals as well.</p>
-<h2>Prerequisites<span class="hx:absolute hx:-mt-20" id="prerequisites"></span>
-    <a href="#prerequisites" class="subheading-anchor" aria-label="Permalink for this section"></a></h2><h4><a href="https://docs.ros.org/en/jazzy/"target="_blank" rel="noopener">Robot Operating System (ROS2)</a><span class="hx:absolute hx:-mt-20" id="robot-operating-system-ros2"></span>
+<h3>Prerequisites<span class="hx:absolute hx:-mt-20" id="prerequisites"></span>
+    <a href="#prerequisites" class="subheading-anchor" aria-label="Permalink for this section"></a></h3><h4><a href="https://docs.ros.org/en/jazzy/"target="_blank" rel="noopener">Robot Operating System (ROS2)</a><span class="hx:absolute hx:-mt-20" id="robot-operating-system-ros2"></span>
     <a href="#robot-operating-system-ros2" class="subheading-anchor" aria-label="Permalink for this section"></a></h4><p><strong>The Robot Operating System (ROS) is a set of software libraries and tools for building robot applications.</strong> From drivers and state-of-the-art algorithms to powerful developer tools, ROS has the open source tools you need for your next robotics project.</p>
 <h4><a href="https://gazebosim.org/docs/harmonic/getstarted/"target="_blank" rel="noopener">Gazebo</a><span class="hx:absolute hx:-mt-20" id="gazebo"></span>
     <a href="#gazebo" class="subheading-anchor" aria-label="Permalink for this section"></a></h4><p>Gazebo Sim is an open source robotics simulator. Through Gazebo Sim, users have access to high fidelity physics, rendering, and sensor models. Additionally, users and developers have multiple points of entry to simulation including a graphical user interface, plugins, and asynchronous message passing and services.</p>
@@ -322,8 +326,8 @@ Prerequisites Robot Operating System (ROS2) The Robot Operating System (ROS) is 
     <a href="#ros2_" class="subheading-anchor" aria-label="Permalink for this section"></a></h4><p>The ros2_control is a framework for (real-time) control of robots using ROS 2. Its packages are a rewrite of <a href="http://wiki.ros.org/ros_control"target="_blank" rel="noopener">ros_control</a> packages used in <code>ROS</code>. ros2_control’s goal is to simplify integrating new hardware and overcome some drawbacks.</p>
 <h4><a href="https://docs.nav2.org/"target="_blank" rel="noopener">Nav2</a><span class="hx:absolute hx:-mt-20" id="nav2"></span>
     <a href="#nav2" class="subheading-anchor" aria-label="Permalink for this section"></a></h4><p>Nav2 is the professionally-supported successor of the ROS Navigation Stack deploying the same kinds of technology powering Autonomous Vehicles brought down, optimized, and reworked for mobile and surface robotics.</p>
-<h1>Key Notes</h1><hr>
-<h4>Robot State Publisher:<span class="hx:absolute hx:-mt-20" id="robot-state-publisher"></span>
+<h3>Key Notes<span class="hx:absolute hx:-mt-20" id="key-notes"></span>
+    <a href="#key-notes" class="subheading-anchor" aria-label="Permalink for this section"></a></h3><h4>Robot State Publisher:<span class="hx:absolute hx:-mt-20" id="robot-state-publisher"></span>
     <a href="#robot-state-publisher" class="subheading-anchor" aria-label="Permalink for this section"></a></h4><h4>Joint State Publisher<span class="hx:absolute hx:-mt-20" id="joint-state-publisher"></span>
     <a href="#joint-state-publisher" class="subheading-anchor" aria-label="Permalink for this section"></a></h4><h4>rviz<span class="hx:absolute hx:-mt-20" id="rviz"></span>
     <a href="#rviz" class="subheading-anchor" aria-label="Permalink for this section"></a></h4><h4>Gazebo<span class="hx:absolute hx:-mt-20" id="gazebo-1"></span>
