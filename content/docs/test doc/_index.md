@@ -5,6 +5,7 @@ params:
 sidebar:
   exclude: true
 toc: false
+icon: u-ros
 cascade:
-  type: blog
+  type: docs
 ---
