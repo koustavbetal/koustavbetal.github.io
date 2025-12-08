@@ -38,7 +38,6 @@ In this guide we will setup complete micro-ros setup from installing PlatformIO 
 &lt;li&gt;Basic idea of micro-controllers and ROS(2).&lt;/li&gt;
 &lt;li&gt;Some hardware related experience for connecting IO pins properly.&lt;/li&gt;
 &lt;li&gt;Basics of electronics, voltage and current requirements for used components.&lt;/li&gt;
-&lt;li&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2&gt;Install PlatformIO for VSCode:&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;install-platformio-for-vscode&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#install-platformio-for-vscode&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
@@ -77,9 +76,9 @@ OR,&lt;/li&gt;
 &lt;li&gt;After Installing the extension,
 Click on the PlatformIO button or clicking the home button on status bar or by searching &amp;ldquo;&lt;strong&gt;platfomio home&lt;/strong&gt;&amp;rdquo; on command palette (&lt;code&gt;ctrl+shift+p&lt;/code&gt;)&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2&gt;Setting up PlatformIO&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;setting-up-platformio&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#setting-up-platformio&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;After Installing the extension,&lt;/p&gt;
-&lt;ul&gt;
+&lt;h2&gt;Setting up PlatformIO Project&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;setting-up-platformio-project&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#setting-up-platformio-project&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;Resolve Dependencies&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;resolve-dependencies&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#resolve-dependencies&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;Install the requirement dependencies mentioned &lt;a href=&#34;https://github.com/micro-ROS/micro_ros_platformio?tab=readme-ov-file#requirements&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;div class=&#34;hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code&#34;&gt;
@@ -94,15 +93,24 @@ Click on the PlatformIO button or clicking the home button on status bar or by s
   &lt;/button&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;ul&gt;
-&lt;li&gt;Open VSCode&lt;/li&gt;
-&lt;li&gt;Navigate to PlatformIo Home by,
+&lt;h3&gt;Create a New Project&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;create-a-new-project&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#create-a-new-project&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Open VSCode&lt;/strong&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Initialise PIO for VSCode (Only for the first time)&lt;/strong&gt;
+Click on the PlatformIO button present in the sidebar. That&amp;rsquo;s It!!&lt;br&gt;
+&lt;span style=&#34;color:#999;&#34;&gt;&lt;em&gt;For the first time PIO will take its time to download binaries and initialise everything.&lt;/em&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Navigate to PlatformIo Home&lt;/strong&gt; by,
 Clicking on the PlatformIO button or,
 clicking the home button on status bar or,
-by searching &amp;ldquo;&lt;strong&gt;platfomio home&lt;/strong&gt;&amp;rdquo; on command palette (&lt;code&gt;ctrl+shift+p&lt;/code&gt;)&lt;/li&gt;
-&lt;li&gt;Create a new project
-&lt;ul&gt;
-&lt;li&gt;Click on &lt;code&gt;Create Project&lt;/code&gt;
+by searching &amp;ldquo;&lt;strong&gt;platfomio home&lt;/strong&gt;&amp;rdquo; on command palette (&lt;code&gt;ctrl+shift+p&lt;/code&gt;)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Click on &lt;code&gt;Create Project&lt;/code&gt;&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Give a proper name&lt;/li&gt;
 &lt;li&gt;Select board according to your model (i.e. &lt;em&gt;DOIT ESP Devkit V1&lt;/em&gt;)&lt;/li&gt;
@@ -111,15 +119,63 @@ by searching &amp;ldquo;&lt;strong&gt;platfomio home&lt;/strong&gt;&amp;rdquo; o
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
 &lt;blockquote&gt;
   &lt;p&gt;Note: To open the project later you only have to open this specific older where the &lt;code&gt;.ini&lt;/code&gt; file is stored.&lt;/p&gt;
 
 &lt;/blockquote&gt;
-&lt;div style=&#34;display:flex; align-items:center; gap:30px;&#34;&gt;
+&lt;h3&gt;Configure &lt;code&gt;.ini&lt;/code&gt; file&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;configure-ini-file&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#configure-ini-file&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;The {project}.ini file should already be populated with some values:&lt;/p&gt;
+&lt;div class=&#34;hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code&#34;&gt;
+
+&lt;div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-ini&#34; data-lang=&#34;ini&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;; PlatformIO Project Configuration File&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;; Build options: build flags, source filter&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;; Upload options: custom upload port, speed and extra flags&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;; Library options: dependencies, extra library storages&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;; Advanced options: extra scripting&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;; Please visit documentation for the other options and examples&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;; https://docs.platformio.org/page/projectconf.html&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;[env:esp32doit-devkit-v1]&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;na&#34;&gt;platform&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;espressif32&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;na&#34;&gt;board&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;esp32doit-devkit-v1&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;na&#34;&gt;framework&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;arduino&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0&#34;&gt;
+  &lt;button
+    class=&#34;hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50&#34;
+    title=&#34;Copy code&#34;
+  &gt;
+    &lt;div class=&#34;hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
+&lt;div class=&#34;hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
+  &lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;Add these lines onto this file:&lt;/strong&gt;&lt;/p&gt;
+&lt;div class=&#34;hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code&#34;&gt;
+
+&lt;div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-ini&#34; data-lang=&#34;ini&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;na&#34;&gt;board_microros_transport&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;serial&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;na&#34;&gt;board_microros_distro&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;jazzy&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;na&#34;&gt;lib_deps&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;s&#34;&gt;	https://github.com/micro-ROS/micro_ros_platformio&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0&#34;&gt;
+  &lt;button
+    class=&#34;hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50&#34;
+    title=&#34;Copy code&#34;
+  &gt;
+    &lt;div class=&#34;hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
+&lt;div class=&#34;hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
+  &lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;em&gt;&lt;code&gt;board_microros_*&lt;/code&gt;&lt;/em&gt; are optional and should be changed based on your preferred value (all possible values can be found &lt;a href=&#34;https://github.com/micro-ROS/micro_ros_platformio?tab=readme-ov-file#library-configuration&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;.)&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;Upon saving this file pltformIO will download all the pkgs and will build everything in the background, Don&amp;rsquo;t panic and Do Not close the Application.&lt;/p&gt;
+
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Basic setup for the project is done,&lt;/strong&gt; Now do the code in main.cpp under /src folder.&lt;br&gt;
+(To Understand complete file structure of a PIO project look for the MicroROS 101 in guides.[TODO])&lt;/p&gt;
+&lt;h2&gt;Resources&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;resources&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#resources&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;div style=&#34;display:flex; align-items:center; gap:30px;&#34;&gt;
   &lt;!-- Video (fixed 30% width of screen) --&gt;
-  &lt;div style=&#34;width:35%; border-radius:15px; overflow:hidden;&#34;&gt;
+  &lt;div style=&#34;width:30%;  margin-top:12px; border-radius:15px; overflow:hidden;&#34;&gt;
     &lt;iframe
       src=&#34;https://www.youtube.com/embed/Nf7HP9y6Ovo?feature=oembed&#34;
       style=&#34;aspect-ratio:1.77; width:100%; height:auto; border:0;&#34;
@@ -127,11 +183,11 @@ by searching &amp;ldquo;&lt;strong&gt;platfomio home&lt;/strong&gt;&amp;rdquo; o
     &gt;&lt;/iframe&gt;
   &lt;/div&gt;
   &lt;!-- Text (flexible remaining width) --&gt;
-  &lt;div style=&#34;flex:1; font-size:18px; line-height:1.5;&#34;&gt;
-    Your text goes here.  
-    It will automatically occupy whatever space is left after giving 30% to the video.  
-    You can add multiple lines, formatted content, or even buttons here.
-    Reprehenderit ullamco adipisicing velit officia fugiat. Qui cillum pariatur laboris officia cillum aliquip. Occaecat anim aute laboris minim esse do mollit proident. Esse mollit reprehenderit ad dolor velit ad magna et. Nostrud adipisicing voluptate sint adipisicing veniam exercitation. Excepteur ad voluptate excepteur duis reprehenderit enim excepteur labore sunt id eu quis. Enim voluptate ad proident occaecat dolor officia ullamco laborum aute aliquip.
+  &lt;div style=&#34;flex:1; font-size:16px; line-height:1.5;&#34;&gt;
+    This video covers all I have mentioned in this blog including,&lt;/br&gt;  
+    &lt;em&gt;1. Configuring PIO &lt;/br&gt;
+    2. MicroROS Agent setup in main machine. &lt;/br&gt;
+    3. And basic understanding of microROS codes.&lt;/em&gt;
   &lt;/div&gt;
 &lt;/div&gt;
 

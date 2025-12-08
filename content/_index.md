@@ -50,11 +50,11 @@ toc: false
     style="background: radial-gradient(ellipse at 50% 80%,rgba(142,53,74,0.15),hsla(0,0%,100%,0));"
     link="/guides/ros2-101/" >}}
   {{< hextra/feature-card
-    icon="sparkles"
-    title="URDF Wizard"
-    subtitle="Become a URDF wizard and learn the basic to advance methods of URDF"
+    icon="u-ros"
+    title="Micro-ROS Setup"
+    subtitle="Complete Setup guide for micro-ros using ***micro-ros for arduino*** using ***PlatformIO***"
     style="background: radial-gradient(ellipse at 50% 80%,rgba(221,210,59,0.15),hsla(0,0%,100%,0));"
-    link="/guides/urdf-wizard/" >}}
+    link="/guides/setting-up-microros/" >}}
 {{< /hextra/feature-grid >}}
 
 <div class="hx:mt-16 hx:mb-4">

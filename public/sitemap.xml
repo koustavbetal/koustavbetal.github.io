@@ -2,19 +2,25 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://localhost:1313/tags/microros/</loc>
+    <lastmod>2025-12-08T13:00:00+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/guides/microros-pio-code-breakdown/</loc>
+    <lastmod>2025-12-08T13:00:00+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/platformio/</loc>
+    <lastmod>2025-12-08T13:00:00+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/ros2/</loc>
+    <lastmod>2025-12-08T13:00:00+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2025-12-08T13:00:00+05:30</lastmod>
+  </url><url>
     <loc>http://localhost:1313/tags/esp32/</loc>
     <lastmod>2025-12-06T15:30:00+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/microros/</loc>
-    <lastmod>2025-12-06T15:30:00+05:30</lastmod>
-  </url><url>
     <loc>http://localhost:1313/guides/setting-up-microros/</loc>
-    <lastmod>2025-12-06T15:30:00+05:30</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/platformio/</loc>
-    <lastmod>2025-12-06T15:30:00+05:30</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/</loc>
     <lastmod>2025-12-06T15:30:00+05:30</lastmod>
   </url><url>
     <loc>http://localhost:1313/guides/</loc>
@@ -81,8 +87,6 @@
     <loc>http://localhost:1313/tags/gz/</loc>
   </url><url>
     <loc>http://localhost:1313/tags/nav2/</loc>
-  </url><url>
-    <loc>http://localhost:1313/tags/ros2/</loc>
   </url><url>
     <loc>http://localhost:1313/docs/amr-docs/ros2_control/</loc>
   </url><url>
