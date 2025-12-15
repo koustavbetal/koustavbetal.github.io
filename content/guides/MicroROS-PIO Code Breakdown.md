@@ -355,7 +355,7 @@ void loop() {
 	 */
 ```
 ## Stitching Everything Together!!
-```c++
+```c++ {linenos=table}
 /*
 	* This is a simple template to use microros with ESP32-Arduino
 	* This sketch has sample of publisher to publish from timer_callback
