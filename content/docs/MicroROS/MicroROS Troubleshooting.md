@@ -16,7 +16,7 @@ authors:
 
 ---
 ## PIO configuration (.ini) for ESP32-S3 
-Tested with [ESP32-s3-N16R8](https://github.com/microrobotics/ESP32-S3-N16R8/blob/main/ESP32-S3-N16R8_User_Guide.pdf) board, which has 2 USB ports. (USB & COM)
+Tested with [ESP32-S3-N16R8](https://github.com/microrobotics/ESP32-S3-N16R8/blob/main/ESP32-S3-N16R8_User_Guide.pdf) board, which has 2 USB ports. (USB & COM)
 ```ini
 [env:esp32-s3-devkitc-1]
 platform = espressif32
