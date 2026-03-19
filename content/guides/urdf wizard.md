@@ -1,18 +1,16 @@
 ---
-Title: Become URDF Wizard
+title: Become URDF Wizard
 tags:
   - URDF
   - SDF
 description: Learn all the Basic Tags and how to use them.
 icon: sparkles
-image: "/images/koustav.png"
 date: '2025-10-04T17:04:33+05:30'
-author: koustav
 
-authors: 
-  - name: imfing
-    link: https://github.com/imfing
-    image: https://github.com/imfing.png
+authors:
+  - name: koustav
+    link: /members/koustav
+    image: https://github.com/koustavbetal.png
 ---
 
 # Key Notes 

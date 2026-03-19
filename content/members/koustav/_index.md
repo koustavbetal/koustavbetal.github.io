@@ -36,45 +36,48 @@ To bring the Hands-on experience of the Industrial Practices and tid-bits to mak
 <div class="hx:mt-6"></div>
 
 ## Experience
+<div class="hx:w-full hx:border-t hx:my-4"></div>    
 {{% steps %}}
 
 #### [Rubotsh Technologies LLP.](https://rubotsh.com/)
-This is the first step.&nbsp;<br class="hx:sm:block hx:hidden" /> 
-kjbk
+**Senior Robotics Engineer**   
+Aug'25 - Present   
+Resposible for Creating a Working Autonomous Industrial Cleaning Robot from scratch.
 
 #### [Together Solutions Pvt. Ltd.](https://togethersolutions.co.in/)
-This is the second step.
-
+**R&D Intern for Industrial Metal Surface Health Monitoring and Cleaning Robots**   
+Dec'24 - July'25   
+Worked with: *Solidworks, RF Network, ROS2*
+  
 {{% /steps %}}
 
 
-
-
-
-
-
-
 ## Technologies Used
+<div class="hx:w-full hx:border-t hx:my-4"></div>    
+&nbsp;
 {{< hextra/feature-grid cols=3 >}}
   {{< hextra/feature-card
     icon="fast-forward"
-    title="Fast"
-    subtitle="Runs linters in parallel, reuses Go build cache and caches analysis results."
-    style="background: radial-gradient(ellipse at 50% 80%,rgba(194,97,254,0.15),hsla(0,0%,100%,0));"
-    link="/docs/" >}}
+    title="ROS2"
+    subtitle="Made end-to-end Real World Workinng Robot with ROS2 Eco-System"
+    style="background: radial-gradient(ellipse at 50% 80%,rgba(194,97,254,0.15),hsla(0,0%,100%,0));">}}
+    <!-- link="/docs/" 
+    >}} -->
   {{< hextra/feature-card
     icon="desktop-computer"
-    title="Integrations"
-    subtitle="Integrations with VS Code, Sublime Text, GoLand, GNU Emacs, Vim, GitHub Actions."
-    style="background: radial-gradient(ellipse at 50% 80%,rgba(142,53,74,0.15),hsla(0,0%,100%,0));"
-    link="/docs/welcome/integrations" >}}
+    title="OpenCV"
+    subtitle="Created Multiple Vision Pipelines for Object Detection, Tracking and Vision Based Navigation"
+    style="background: radial-gradient(ellipse at 50% 80%,rgba(142,53,74,0.15),hsla(0,0%,100%,0));">}}
+    <!-- link="/docs/welcome/integrations" 
+    >}} -->
   {{< hextra/feature-card
     icon="sparkles"
-    title="Nice outputs"
-    subtitle="Text with colors and source code lines, JSON, tab, HTML, Checkstyle, Code-Climate, JUnit-XML, TeamCity, SARIF."
-    style="background: radial-gradient(ellipse at 50% 80%,rgba(221,210,59,0.15),hsla(0,0%,100%,0));"
-    link="/docs/configuration/file/#output-configuration" >}}
-  {{< hextra/feature-card
+    title="Solidworks, OnShape"
+    subtitle="Designed and modeled industrial robots and components."
+    style="background: radial-gradient(ellipse at 50% 80%,rgba(221,210,59,0.15),hsla(0,0%,100%,0));">}}
+    <!-- link="/docs/configuration/file/#output-configuration" 
+    >}} -->
+  <!-- {{< hextra/feature-card
     icon="eye-off"
     title="Minimum number of false positives"
     subtitle="Tuned default settings."
@@ -88,5 +91,7 @@ This is the second step.
     icon="document-text"
     title="YAML-based configuration"
     subtitle="Easy to read and maintain."
-    link="/docs/configuration/file" >}}
+    link="/docs/configuration/file" >}} -->
 {{< /hextra/feature-grid >}}
+
+<!-- &nbsp;<br class="hx:sm:block hx:hidden" />  -->

@@ -4,6 +4,8 @@ title: AMR-Docs
 params:
   width: full
 toc: false
+sidebar:
+  exclude: false
 cascade:
   type: docs
 icon: github

@@ -3,13 +3,18 @@
 /* Do not remove the following comment. It is used by Hugo to render CSS variables.*/
 
 :root {
-  --hextra-max-page-width: 100%;
+  --hextra-max-page-width: 90rem;
+  --hextra-max-content-width: 72rem;
   --hextra-max-navbar-width: 80rem;
   --hextra-max-footer-width: 90rem;
 }
 
 .hextra-max-page-width {
   max-width: var(--hextra-max-page-width);
+}
+
+.hextra-max-content-width {
+  max-width: var(--hextra-max-content-width);
 }
 
 .hextra-max-navbar-width {

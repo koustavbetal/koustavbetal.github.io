@@ -1,12 +1,12 @@
 ---
-State: Complete
 date: '2025-10-04T17:04:33+05:30'
 title: How to Git
 icon: github
 tags:
   - git
   - github
-Relations:
+# params:
+#   width: full
 Resources: https://education.github.com/git-cheat-sheet-education.pdf
 authors: 
   - name: koustav
@@ -15,14 +15,13 @@ authors:
 ---
 
 ![](/images/fingerprint-white.svg)
-# Install Git
----
+Basic operations of Git and Github   
+## Install Git
 ```bash
 sudo apt install git
 ```
 >*Debian Only*
-# Global Config  
----
+## Global Config  
 >***Configuring user information used across all local repositories***
 ---
 ### **Set Username**
@@ -37,8 +36,7 @@ git config --global user.email <email>
 >*set an email address that will be associated with each history marker*
 
 
-# Initialise Repository
----
+## Initialise Repository
 >***Configuring user information, initializing, and cloning repositories***
 ---
 ### **Initialise a Directory as Repository**
@@ -53,8 +51,7 @@ git clone <url>
 >*Retrieve an entire repository from a hosted location through URL*
 
 
-# Status of Repository
----
+## Status of Repository
 >***Theory of staging(add), upstaging(remove) and committing***
 >***Staged → Commit  (→ Push)***
 ---
@@ -103,8 +100,7 @@ git commit -m "<descriptive_message>"
 >	If we do not use this, another separate window like “nano” will popup to enter a commit message, which increases the complexity, without any benefit.
 
 
-# Push Repository 
----
+## Push Repository 
 >***(Staged → Commit →) push | fetch | pull | merge***
 ---
 ### **Add Remote Repository:** `remote add`

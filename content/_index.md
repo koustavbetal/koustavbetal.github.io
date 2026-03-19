@@ -50,11 +50,11 @@ toc: false
     style="background: radial-gradient(ellipse at 50% 80%,rgba(142,53,74,0.15),hsla(0,0%,100%,0));"
     link="/guides/ros2-101/" >}}
   {{< hextra/feature-card
-    icon="u-ros"
-    title="Micro-ROS Setup"
-    subtitle="Complete Setup guide for micro-ros using ***micro-ros for arduino*** using ***PlatformIO***"
+    icon="bot-sparkle"
+    title="ROS-Manager"
+    subtitle="An all-in-one ros and ros-pkgs installer & uninstaller tool"
     style="background: radial-gradient(ellipse at 50% 80%,rgba(221,210,59,0.15),hsla(0,0%,100%,0));"
-    link="/guides/setting-up-microros/" >}}
+    link="/guides/ros-manager" >}}
 {{< /hextra/feature-grid >}}
 
 <div class="hx:mt-16 hx:mb-4">
@@ -72,11 +72,11 @@ toc: false
     style="background: radial-gradient(ellipse at 50% 80%,rgba(221,210,59,0.15),hsla(0,0%,100%,0));"
     link="/docs/amr-docs/" >}}
   {{< hextra/feature-card
-    icon="bot-sparkle"
-    title="ROS-Manager"
-    subtitle="An all-in-one ros and ros-pkgs installer & uninstaller tool"
+    icon="u-ros"
+    title="Micro-ROS"
+    subtitle="Complete Setup guide for micro-ros using ***micro-ros for arduino*** using ***PlatformIO***"
     style="background: radial-gradient(ellipse at 50% 80%,rgba(142,53,74,0.15),hsla(0,0%,100%,0));"
-    link="/" >}}
+    link="/docs/microros/" >}}
   {{< hextra/feature-card
     icon="collection"
     title="And a lot more !!"
